@@ -214,26 +214,32 @@
 
   
 
-    <!-- Start Project Section -->
+    <!-- Start formation Section -->
     <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="section-title">
           <h2>Formation </h2>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter=".formation" >Formation</li>
               <li data-filter=".projets"  >Projets</li>
             </ul>
           </div>
-        </div><br><br>
+        </div><br><br> -->
+        <div class="col-lg-12 d-flex justify-content-center" id="portfolio-flters" >
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active" ><a href="#portfolio" ><span> Formation</span></a></li>
+              <li><a href="#projets"><span>Projets</span></a></li>
+            </ul>
+          </nav>
+        </div>
+          
         
-
         <div class="row portfolio-container">
-
-
           <div class="col-lg-4 col-md-6 portfolio-item formation">
             <center>
               <h4>Développement Web – UN-CHK</h4>
@@ -242,28 +248,19 @@
             <div class="portfolio-wrap">
               <img src="assets/img/unchk.png" class="img-fluid" alt="Formation UNCHK" />
               <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="#" title="Université Numérique Cheikh Hamidou Kane">
-                    <i class="bx bx-info-circle"></i>
-                  </a>
-                </div>
+  
               </div>
             </div>
           </div>
           
           <div class="col-lg-4 col-md-6 portfolio-item formation">
             <center>
-              <h4>Génie Informatique et Réseaux – IMAD</h4>
+              <h4>Génie Informatique et Réseaux – AMDI</h4>
               <p>2021 - 2024</p>
             </center>
             <div class="portfolio-wrap">
               <img src="assets/img/amdi.png" class="img-fluid" alt="Formation IMAD" />
               <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="#" title="Institut du Millénaire Africain pour le Développement">
-                    <i class="bx bx-info-circle"></i>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -276,74 +273,78 @@
             <div class="portfolio-wrap">
               <img src="assets/img/téléchargement.png" class="img-fluid" alt="Formation Simplon" />
               <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="#" title="Certification Développeuse Full Stack & IoT – Simplon Sénégal">
-                    <i class="bx bx-info-circle"></i>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item projets">
-            <div class="portfolio-wrap shadow rounded-4 p-3">
-              <img src="assets/img/pointage.png" class="img-fluid rounded-3" alt="SUNUPOINTAGE" />
-              <div class="portfolio-info mt-3 text-center">
-                <h4 class="fw-bold">SUNUPOINTAGE</h4>
-                <p class=" small">
-                  Système de pointage intelligent basé sur l’IoT pour une gestion automatisée des présences.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item projets">
-            <div class="portfolio-wrap shadow rounded-4 p-3">
-              <img src="assets/img/noir.png" class="img-fluid rounded-3" alt="YAKAR" />
-              <div class="portfolio-info mt-3 text-center">
-                <h4 class="fw-bold">YAKAR</h4>
-                <p class=" small">
-                  Système de contrôle d'humidité et température pour environnement agricole à l’aide de capteurs IoT.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item projets">
-            <div class="portfolio-wrap shadow rounded-4 p-3">
-              <img src="assets/img/project/minibanque.jpg" class="img-fluid rounded-3" alt="Mini Banque" />
-              <div class="portfolio-info mt-3 text-center">
-                <h4 class="fw-bold">Mini Banque</h4>
-                <p class="text-muted small">
-                  Application web permettant la gestion simplifiée des services financiers dans une structure de microfinance.
-                </p>
-                <a href="projects/minibanque.html" class="btn btn-sm btn-outline-primary mt-2">
-                  <i class="bx bx-info-circle"></i> Détails
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item projets">
-            <div class="portfolio-wrap shadow rounded-4 p-3">
-              <img src="assets/img/project/arrosage.jpg" class="img-fluid rounded-3" alt="Arrosage automatique" />
-              <div class="portfolio-info mt-3 text-center">
-                <h4 class="fw-bold">Arrosage intelligent</h4>
-                <p class="text-muted small">
-                  Système automatisé d’arrosage d’une pépinière, avec capteurs d’humidité connectés à un microcontrôleur.
-                </p>
-                <a href="projects/arrosage.html" class="btn btn-sm btn-outline-primary mt-2">
-                  <i class="bx bx-info-circle"></i> Détails
-                </a>
-              </div>
-            </div>
-          </div>
-          
 
         </div>
       </div>
     </section>
+    <!-- End formation section -->
 
+
+
+
+    <!-- Start Projet Section -->
+    <section id="projets" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Formation </h2>
+        </div>
+
+        <div class="col-lg-12 d-flex justify-content-center" id="portfolio-flters" >
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li><a href="#portfolio" ><span> Formation</span></a></li>
+              <li><a href="#projets"><span>Projets</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      
+
+        <div class="row gy-4">
+          <div class="col-lg-6 mb-5">
+            <div class="bg-light p-4 shadow rounded-4 h-100">
+              <h4 class="text-success fw-semibold">SUNUPOINTAGE</h4>
+              <p class="mb-0 text-muted">
+                Développement d’un système de pointage intelligent basé sur l’IoT, permettant une gestion automatisée des présences
+                dans un environnement éducatif ou professionnel. Utilisation de microcontrôleurs et capteurs RFID pour l’identification.
+              </p>
+            </div>
+          </div>
+    
+          <div class="col-lg-6 mb-5">
+            <div class="bg-light p-4 shadow rounded-4 h-100">
+              <h4 class="text-success fw-semibold">YAKAR</h4>
+              <p class="mb-0 text-muted">
+                Conception d’une solution IoT pour surveiller et gérer les niveaux d’humidité et la température dans un environnement
+                agricole. Les données captées sont affichées en temps réel sur une application web. 
+              </p>
+            </div>
+          </div>
+    
+          <div class="col-lg-6">
+            <div class="bg-light p-4 shadow rounded-4 h-100">
+              <h4 class="text-success fw-semibold">Application MINI BANQUE</h4>
+              <p class="mb-0 text-muted">
+                Création d’une application de gestion financière pour une micro-banque. Elle inclut les fonctionnalités de dépôt,
+                retrait, consultation de solde et historique des opérations. Réalisée avec Laravel et MySQL.
+              </p>
+            </div>
+          </div>
+    
+          <div class="col-lg-6">
+            <div class="bg-light p-4 shadow rounded-4 h-100">
+              <h4 class="text-success fw-semibold">Système d’arrosage automatique</h4>
+              <p class="mb-0 text-muted">
+                Intégration de capteurs d'humidité connectés à un système IoT (ESP32) pour contrôler l’arrosage d’une pépinière. Le système décide de l’arrosage selon les besoins réels du sol, optimisant ainsi la consommation d’eau.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
     <!-- End Project Section -->
 
     <!-- Start Skills Section -->
@@ -498,13 +499,6 @@
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
       </div>
     </section>
 
@@ -595,7 +589,7 @@
           "Passionnée par l'informatique et les nouvelles technologies",
           "Développeuse web Fullstack ",
           "Codeuse",
-          "Fatou Bintou Sane",
+          "Technicienne en Internet Des Objets Connecter (IOT)",
         ],
         loop: true,
         typeSpeed: 65,

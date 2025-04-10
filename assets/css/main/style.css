@@ -156,6 +156,9 @@ body {
   color: var(--primary-hover);
   text-decoration: underline;
 }
+.formation{
+  margin-top: 20px;
+}
 
 /**
 * Template Name: Personal - v2.1.0
@@ -504,11 +507,12 @@ section .container {
   font-weight: 500;
   padding: 0;
   line-height: 1px;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #dee2e6;
   font-family: "Poppins", sans-serif;
+
 }
 
 .section-title h2::after {
